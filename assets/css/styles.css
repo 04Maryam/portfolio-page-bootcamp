@@ -1,0 +1,179 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: black;
+    color: #d1c4aa;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem; 
+}
+
+.name {
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:first-child {
+    color: #d1c4aa;
+}
+
+nav a:hover {
+    color: #d1c4aa;
+}
+
+.contact {
+    display: flex;
+    gap: 8px;
+}
+
+.contact a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact a:hover {
+    color: #d1c4aa;
+}
+
+main {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+    position: relative;
+}
+
+.title img {
+    filter: brightness(0.5);
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.title h1 {
+    position: absolute;
+    color: white;
+    font-size: 2.7rem;
+    top: 50%;
+    left: 50%;
+    translate: -50%;
+    
+}
+
+.title p {
+    position: absolute;
+    color: white;
+    top: 58%;
+    left: 50%;
+    translate: -50%;
+}
+
+.projects-container {
+    margin-top: 5rem;  
+    margin-bottom: 5rem;
+}
+
+.projects-heading {
+  font-size: 1.875rem; 
+  margin-bottom: 1rem; 
+}
+
+.projects-subheading {
+  font-size: 1.25rem; 
+  color: #9CA3AF; 
+  margin-bottom: 2.8rem; 
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 72rem; 
+  margin: 0 auto;
+}
+
+.project-card {
+    width: 18rem;
+}
+
+.project-title {
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  line-height: 1.75rem;
+}
+
+.project-title-margin {
+  margin-top: 0.5rem; /* Equivalent to mt-2 */
+}
+
+.project-card p {
+    color: white;
+}
+
+
+.projects-container img {
+    padding: auto;
+    margin: auto;
+    height: 200px;
+    
+}
+
+.image {
+    width: 100%;
+}
+
+.footer {
+    border-top: 1px solid rgb(186, 186, 186);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-title {
+    font-size: 3rem;
+    color: white;
+    /* padding-left: 20px; */
+    text-align: center;
+}
+
+.footer-subtitle {
+    padding-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 1rem;/
+}
+
